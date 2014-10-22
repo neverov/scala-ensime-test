@@ -1,0 +1,7 @@
+run
+set name := "hi"
+set version := "1.0"
+set scalaVersion := "2.11.1"
+run
+gen-ensime
+clean

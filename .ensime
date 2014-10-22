@@ -1,0 +1,23 @@
+(
+ :root-dir "/Users/aneverov/Dropbox/Development/Code/scala/scala-ensime-test"
+ :cache-dir "/Users/aneverov/Dropbox/Development/Code/scala/scala-ensime-test/.ensime_cache"
+ :name "scala-ensime-test"
+ :java-home "/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk/Contents/Home/jre"
+ :java-flags ("-Xms2048m" "-Xmx2048m" "-XX:ReservedCodeCacheSize=256m" "-XX:MaxPermSize=512m")
+ :reference-source-roots nil
+ :scala-version "2.10.4"
+ :compiler-args nil
+ 
+ :subprojects ((
+   :name "scala-ensime-test"
+   :module-name "scala-ensime-test"
+   :source-roots ("/Users/aneverov/Dropbox/Development/Code/scala/scala-ensime-test/src/main/scala" "/Users/aneverov/Dropbox/Development/Code/scala/scala-ensime-test/src/main/java" "/Users/aneverov/Dropbox/Development/Code/scala/scala-ensime-test/src/test/scala" "/Users/aneverov/Dropbox/Development/Code/scala/scala-ensime-test/src/test/java")
+   :target "/Users/aneverov/Dropbox/Development/Code/scala/scala-ensime-test/target/scala-2.10/classes"
+   :test-targets ("/Users/aneverov/Dropbox/Development/Code/scala/scala-ensime-test/target/scala-2.10/test-classes")
+   :depends-on-modules nil
+   :compile-deps ("/Users/aneverov/.sbt/boot/scala-2.10.4/lib/scala-library.jar")
+   :runtime-deps nil
+   :test-deps nil
+   :reference-source-roots ("/Users/aneverov/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.4-sources.jar")))
+ 
+)
