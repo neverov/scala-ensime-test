@@ -4,7 +4,7 @@
 		module="scala-ensime-test-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20141022125734"
+		publication="20141027143059"
 		e:scalaVersion="2.10" e:sbtVersion="0.13"
 	>
 		<description>

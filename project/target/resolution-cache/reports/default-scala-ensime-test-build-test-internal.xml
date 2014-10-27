@@ -9,10 +9,10 @@
 		extra-scalaVersion="2.10"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20141022125734"/>
+		date="20141027143059"/>
 	<dependencies>
 		<module organisation="org.scala-sbt" name="global-plugins">
-			<revision name="0.0" status="integration" pubdate="20141022125734" resolver="inter-project" artresolver="inter-project" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="0">
+			<revision name="0.0" status="integration" pubdate="20141027143044" resolver="inter-project" artresolver="inter-project" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="0">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="default" name="scala-ensime-test-build" conf="test-internal, test, optional, compile, provided, runtime" rev="0.0" rev-constraint-default="0.0" rev-constraint-dynamic="0.0" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
 				<artifacts>
@@ -25,7 +25,7 @@
 				<metadata-artifact status="no" details="" size="3416" time="0" location="/Users/aneverov/.ivy2/cache/scala_2.10/sbt_0.13/org.ensime/ensime-sbt/ivy-0.1.5-SNAPSHOT.xml" searched="true" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/snapshots/org/ensime/ensime-sbt_2.10_0.13/0.1.5-SNAPSHOT/ensime-sbt-0.1.5-SNAPSHOT.pom"/>
 				<caller organisation="org.scala-sbt" name="global-plugins" conf="compile" rev="0.1.5-SNAPSHOT" rev-constraint-default="0.1.5-SNAPSHOT" rev-constraint-dynamic="0.1.5-SNAPSHOT" callerrev="0.0" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
 				<artifacts>
-					<artifact name="ensime-sbt" type="jar" ext="jar" status="no" details="" size="74082" time="0" location="/Users/aneverov/.ivy2/cache/scala_2.10/sbt_0.13/org.ensime/ensime-sbt/jars/ensime-sbt-0.1.5-SNAPSHOT.jar">
+					<artifact name="ensime-sbt" type="jar" ext="jar" status="no" details="" size="80768" time="0" location="/Users/aneverov/.ivy2/cache/scala_2.10/sbt_0.13/org.ensime/ensime-sbt/jars/ensime-sbt-0.1.5-SNAPSHOT.jar">
 						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/snapshots/org/ensime/ensime-sbt_2.10_0.13/0.1.5-SNAPSHOT/ensime-sbt-0.1.5-SNAPSHOT.jar"/>
 					</artifact>
 				</artifacts>
@@ -33,11 +33,11 @@
 		</module>
 		<module organisation="com.typesafe.sbt" name="sbt-scalariform">
 			<revision name="1.3.0" status="release" pubdate="20140224173530" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="pom, test, docs, optional, compile, master(*), provided, runtime, compile(*), runtime(*), sources" position="4">
-				<metadata-artifact status="no" details="" size="1360" time="0" location="/Users/aneverov/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-scalariform/ivy-1.3.0.xml" searched="false" origin-is-local="false" origin-location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-scalariform/scala_2.10/sbt_0.13/1.3.0/ivys/ivy.xml"/>
+				<metadata-artifact status="no" details="" size="1360" time="0" location="/Users/aneverov/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-scalariform/ivy-1.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-scalariform/scala_2.10/sbt_0.13/1.3.0/ivys/ivy.xml"/>
 				<caller organisation="org.ensime" name="ensime-sbt" conf="default, compile, runtime, master" rev="1.3.0" rev-constraint-default="1.3.0" rev-constraint-dynamic="1.3.0" callerrev="0.1.5-SNAPSHOT" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
 				<artifacts>
 					<artifact name="sbt-scalariform" type="jar" ext="jar" status="no" details="" size="29303" time="0" location="/Users/aneverov/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-scalariform/jars/sbt-scalariform-1.3.0.jar">
-						<origin-location is-local="false" location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-scalariform/scala_2.10/sbt_0.13/1.3.0/jars/sbt-scalariform.jar"/>
+						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-scalariform/scala_2.10/sbt_0.13/1.3.0/jars/sbt-scalariform.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -45,18 +45,18 @@
 		<module organisation="org.scalariform" name="scalariform_2.10">
 			<revision name="0.1.4" status="release" pubdate="20130424223552" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/mdr/scalariform" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="5">
 				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
-				<metadata-artifact status="no" details="" size="2651" time="0" location="/Users/aneverov/.ivy2/cache/org.scalariform/scalariform_2.10/ivy-0.1.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scalariform/scalariform_2.10/0.1.4/scalariform_2.10-0.1.4.pom"/>
+				<metadata-artifact status="no" details="" size="2651" time="0" location="/Users/aneverov/.ivy2/cache/org.scalariform/scalariform_2.10/ivy-0.1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalariform/scalariform_2.10/0.1.4/scalariform_2.10-0.1.4.pom"/>
 				<caller organisation="com.typesafe.sbt" name="sbt-scalariform" conf="compile, provided" rev="0.1.4" rev-constraint-default="0.1.4" rev-constraint-dynamic="0.1.4" callerrev="1.3.0"/>
 				<artifacts>
 					<artifact name="scalariform_2.10" type="jar" ext="jar" status="no" details="" size="1857142" time="0" location="/Users/aneverov/.ivy2/cache/org.scalariform/scalariform_2.10/jars/scalariform_2.10-0.1.4.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scalariform/scalariform_2.10/0.1.4/scalariform_2.10-0.1.4.jar"/>
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalariform/scalariform_2.10/0.1.4/scalariform_2.10-0.1.4.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="sbt">
 			<revision name="0.13.1" status="release" pubdate="20131210101538" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="-1">
-				<metadata-artifact status="no" details="" size="1791" time="0" location="/Users/aneverov/.ivy2/cache/org.scala-sbt/sbt/ivy-0.13.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt/0.13.1/ivys/ivy.xml"/>
+				<metadata-artifact status="no" details="" size="1791" time="0" location="/Users/aneverov/.ivy2/cache/org.scala-sbt/sbt/ivy-0.13.1.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt/0.13.1/ivys/ivy.xml"/>
 				<evicted-by rev="0.13.6"/>
 				<caller organisation="com.typesafe.sbt" name="sbt-scalariform" conf="compile, provided" rev="0.13.1" rev-constraint-default="0.13.1" rev-constraint-dynamic="0.13.1" callerrev="1.3.0"/>
 				<artifacts>
@@ -76,22 +76,22 @@
 		<module organisation="com.github.mpeltonen" name="sbt-idea">
 			<revision name="1.6.0" status="release" pubdate="20140208231446" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://your.project.url" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="1">
 				<license name="BSD-style" url="http://www.opensource.org/licenses/BSD-3-Clause"/>
-				<metadata-artifact status="no" details="" size="3532" time="0" location="/Users/aneverov/.ivy2/cache/scala_2.10/sbt_0.13/com.github.mpeltonen/sbt-idea/ivy-1.6.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/github/mpeltonen/sbt-idea_2.10_0.13/1.6.0/sbt-idea-1.6.0.pom"/>
+				<metadata-artifact status="no" details="" size="3532" time="0" location="/Users/aneverov/.ivy2/cache/scala_2.10/sbt_0.13/com.github.mpeltonen/sbt-idea/ivy-1.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/mpeltonen/sbt-idea_2.10_0.13/1.6.0/sbt-idea-1.6.0.pom"/>
 				<caller organisation="org.scala-sbt" name="global-plugins" conf="compile" rev="1.6.0" rev-constraint-default="1.6.0" rev-constraint-dynamic="1.6.0" callerrev="0.0" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
 				<artifacts>
 					<artifact name="sbt-idea" type="jar" ext="jar" status="no" details="" size="367570" time="0" location="/Users/aneverov/.ivy2/cache/scala_2.10/sbt_0.13/com.github.mpeltonen/sbt-idea/jars/sbt-idea-1.6.0.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/github/mpeltonen/sbt-idea_2.10_0.13/1.6.0/sbt-idea-1.6.0.jar"/>
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/mpeltonen/sbt-idea_2.10_0.13/1.6.0/sbt-idea-1.6.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="commons-io" name="commons-io">
 			<revision name="2.0.1" status="release" pubdate="20101226201931" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="2">
-				<metadata-artifact status="no" details="" size="6238" time="0" location="/Users/aneverov/.ivy2/cache/commons-io/commons-io/ivy-2.0.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-io/commons-io/2.0.1/commons-io-2.0.1.pom"/>
+				<metadata-artifact status="no" details="" size="6238" time="0" location="/Users/aneverov/.ivy2/cache/commons-io/commons-io/ivy-2.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-io/commons-io/2.0.1/commons-io-2.0.1.pom"/>
 				<caller organisation="com.github.mpeltonen" name="sbt-idea" conf="default, compile, runtime, master" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="1.6.0"/>
 				<artifacts>
 					<artifact name="commons-io" type="jar" ext="jar" status="no" details="" size="159509" time="0" location="/Users/aneverov/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.0.1.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-io/commons-io/2.0.1/commons-io-2.0.1.jar"/>
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-io/commons-io/2.0.1/commons-io-2.0.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -235,12 +235,12 @@
 		<module organisation="org.scala-sbt" name="test-interface">
 			<revision name="1.0" status="release" pubdate="20130629024435" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-sbt.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="42">
 				<license name="BSD" url="https://github.com/sbt/test-interface/blob/master/LICENSE"/>
-				<metadata-artifact status="no" details="" size="2589" time="0" location="/Users/aneverov/.ivy2/cache/org.scala-sbt/test-interface/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.pom"/>
+				<metadata-artifact status="no" details="" size="2589" time="0" location="/Users/aneverov/.ivy2/cache/org.scala-sbt/test-interface/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.pom"/>
 				<caller organisation="org.scala-sbt" name="testing" conf="compile" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="0.13.6"/>
 				<caller organisation="org.scala-sbt" name="test-agent" conf="compile" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="0.13.6"/>
 				<artifacts>
 					<artifact name="test-interface" type="jar" ext="jar" status="no" details="" size="14755" time="0" location="/Users/aneverov/.ivy2/cache/org.scala-sbt/test-interface/jars/test-interface-1.0.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar"/>
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -331,11 +331,11 @@
 		<module organisation="com.jcraft" name="jsch">
 			<revision name="0.1.46" status="release" pubdate="20120202163927" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.jcraft.com/jsch/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="34">
 				<license name="Revised BSD" url="http://www.jcraft.com/jsch/LICENSE.txt"/>
-				<metadata-artifact status="no" details="" size="3203" time="0" location="/Users/aneverov/.ivy2/cache/com.jcraft/jsch/ivy-0.1.46.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/jcraft/jsch/0.1.46/jsch-0.1.46.pom"/>
+				<metadata-artifact status="no" details="" size="3203" time="0" location="/Users/aneverov/.ivy2/cache/com.jcraft/jsch/ivy-0.1.46.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.46/jsch-0.1.46.pom"/>
 				<caller organisation="org.scala-sbt" name="ivy" conf="compile" rev="0.1.46" rev-constraint-default="0.1.46" rev-constraint-dynamic="0.1.46" callerrev="0.13.6"/>
 				<artifacts>
 					<artifact name="jsch" type="jar" ext="jar" status="no" details="" size="225751" time="0" location="/Users/aneverov/.ivy2/cache/com.jcraft/jsch/jars/jsch-0.1.46.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/jcraft/jsch/0.1.46/jsch-0.1.46.jar"/>
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.46/jsch-0.1.46.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -398,13 +398,13 @@
 		</module>
 		<module organisation="org.scala-tools.sbinary" name="sbinary_2.10">
 			<revision name="0.4.2" status="release" pubdate="20140522001025" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="28">
-				<metadata-artifact status="no" details="" size="1401" time="0" location="/Users/aneverov/.ivy2/cache/org.scala-tools.sbinary/sbinary_2.10/ivy-0.4.2.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/ivy-releases/org.scala-tools.sbinary/sbinary_2.10/0.4.2/ivys/ivy.xml"/>
+				<metadata-artifact status="no" details="" size="1401" time="0" location="/Users/aneverov/.ivy2/cache/org.scala-tools.sbinary/sbinary_2.10/ivy-0.4.2.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-tools.sbinary/sbinary_2.10/0.4.2/ivys/ivy.xml"/>
 				<caller organisation="org.scala-sbt" name="main-settings" conf="compile" rev="0.4.2" rev-constraint-default="0.4.2" rev-constraint-dynamic="0.4.2" callerrev="0.13.6"/>
 				<caller organisation="org.scala-sbt" name="cache" conf="compile" rev="0.4.2" rev-constraint-default="0.4.2" rev-constraint-dynamic="0.4.2" callerrev="0.13.6"/>
 				<caller organisation="org.scala-sbt" name="persist" conf="compile" rev="0.4.2" rev-constraint-default="0.4.2" rev-constraint-dynamic="0.4.2" callerrev="0.13.6"/>
 				<artifacts>
 					<artifact name="sbinary_2.10" type="jar" ext="jar" status="no" details="" size="151965" time="0" location="/Users/aneverov/.ivy2/cache/org.scala-tools.sbinary/sbinary_2.10/jars/sbinary_2.10-0.4.2.jar">
-						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/ivy-releases/org.scala-tools.sbinary/sbinary_2.10/0.4.2/jars/sbinary_2.10.jar"/>
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-tools.sbinary/sbinary_2.10/0.4.2/jars/sbinary_2.10.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -515,12 +515,12 @@
 		<module organisation="jline" name="jline">
 			<revision name="2.11" status="release" pubdate="20130519230100" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="19">
 				<license name="The BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
-				<metadata-artifact status="no" details="" size="3767" time="0" location="/Users/aneverov/.ivy2/cache/jline/jline/ivy-2.11.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11.pom"/>
+				<metadata-artifact status="no" details="" size="3767" time="0" location="/Users/aneverov/.ivy2/cache/jline/jline/ivy-2.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11.pom"/>
 				<caller organisation="org.scala-sbt" name="completion" conf="compile" rev="2.11" rev-constraint-default="2.11" rev-constraint-dynamic="2.11" callerrev="0.13.6"/>
 				<caller organisation="org.scala-sbt" name="logging" conf="compile" rev="2.11" rev-constraint-default="2.11" rev-constraint-dynamic="2.11" callerrev="0.13.6"/>
 				<artifacts>
 					<artifact name="jline" type="jar" ext="jar" status="no" details="" size="208781" time="0" location="/Users/aneverov/.ivy2/cache/jline/jline/jars/jline-2.11.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11.jar"/>
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -641,12 +641,12 @@
 		<module organisation="org.scala-lang" name="scala-compiler">
 			<revision name="2.10.4" status="release" pubdate="20140319014738" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="11">
 				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
-				<metadata-artifact status="no" details="" size="2809" time="0" location="/Users/aneverov/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.10.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4.pom"/>
+				<metadata-artifact status="no" details="" size="2809" time="0" location="/Users/aneverov/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.10.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4.pom"/>
 				<caller organisation="org.scala-sbt" name="apply-macro" conf="compile" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="0.13.6"/>
 				<caller organisation="org.scala-sbt" name="classpath" conf="compile" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="0.13.6"/>
 				<artifacts>
 					<artifact name="scala-compiler" type="jar" ext="jar" status="no" details="" size="14445780" time="0" location="/Users/aneverov/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.10.4.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4.jar"/>
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -654,11 +654,11 @@
 		<module organisation="org.scala-lang" name="scala-reflect">
 			<revision name="2.10.4" status="release" pubdate="20140319014707" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.4/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="12">
 				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
-				<metadata-artifact status="no" details="" size="2829" time="0" location="/Users/aneverov/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.10.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4.pom"/>
+				<metadata-artifact status="no" details="" size="2829" time="0" location="/Users/aneverov/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.10.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4.pom"/>
 				<caller organisation="org.scala-lang" name="scala-compiler" conf="default, compile, runtime, master" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.10.4"/>
 				<artifacts>
 					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3203471" time="0" location="/Users/aneverov/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.4.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4.jar"/>
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -666,7 +666,7 @@
 		<module organisation="org.scala-lang" name="scala-library">
 			<revision name="2.10.4" status="release" pubdate="20140319014629" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.4/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), runtime, compile(*), runtime(*), master" position="6">
 				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
-				<metadata-artifact status="no" details="" size="2669" time="0" location="/Users/aneverov/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.pom"/>
+				<metadata-artifact status="no" details="" size="2669" time="0" location="/Users/aneverov/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.pom"/>
 				<caller organisation="org.scala-sbt" name="compiler-interface" conf="compile" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="0.13.6"/>
 				<caller organisation="org.scala-sbt" name="precompiled-2_9_3" conf="compile" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.9.3" callerrev="0.13.6"/>
 				<caller organisation="org.scala-sbt" name="compiler-ivy-integration" conf="compile" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="0.13.6"/>
@@ -712,7 +712,7 @@
 				<caller organisation="org.scala-sbt" name="classpath" conf="compile" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="0.13.6"/>
 				<artifacts>
 					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7126372" time="0" location="/Users/aneverov/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.jar"/>
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
